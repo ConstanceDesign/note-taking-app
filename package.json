@@ -1,0 +1,23 @@
+{
+  "name": "note-taking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnugglesMcGee/note-taking-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnugglesMcGee/note-taking-app/issues"
+  },
+  "homepage": "https://github.com/SnugglesMcGee/note-taking-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
