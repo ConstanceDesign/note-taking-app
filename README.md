@@ -40,39 +40,40 @@ npm install express npm i uuid
 
 2. Added and reviewed the supplied frontend files.
 
-3. I ensured everything worked without bugs and would use CTRL C and npm run to test the app on the local host.
+3. Used Express.js to create a Node.js web server.
 
-I merged branches in Github.
+4. Created server.js and Set up GET routes to serve selective JSON data based on parameters.
 
-17. I pushed my completed challenge to my GitHub repository using Git.
+5. Updated your server to serve client-side code.
 
-I pushed to Heroku to deploy it.
+6. Used the Fetch API to make requests to the server.
 
-18. I added the URLs to Bootcamp and submitted my assignment.
+7. Modularized and scaled the API using the Express.js Router.
+
+8. I ensured everything worked without bugs with Jest.
+
+9. I merged branches in Github.
+
+10. I pushed my completed challenge to my GitHub repository using Git.
+
+11. Deployed on Heroku and connected to Github.
 
 ### Project Status (Completed Assignment)
 
-Link to screenshots of the Market Maestro pages:
+Links:
 
-! [Index Page Screenshot](./assets/images/market-maestro-index.png)
+! [Note Page Screenshot](./public/assets/images/Note-Taking-App.png)
 
-! [Index Page Device (iPhone 12 Pro) Screenshot](./assets/images/market-maestro-index-device.png)
+! [Video Walkthrough](./public/assets/images/Note-Taking-Recording.Mp4)
 
-! [Stock Market Page Screenshot](./assets/images/market-maestro-stock-page.png)
-! [Stock Market Page Device(iPhone 12 Pro) Screenshot] (./assets/images/market-maestro-stock-page-device.png)
-
-! [Crypto Market Page Screenshot](./assets/images/market-maestro-crypto-page.png)
-
-! [Crypto Market Page Device (iPhone 12 Pro) Screenshot](./assets/images/market-maestro-crypto-page-device.png)
-
-URL of the deployed application:
-<https://snugglesmcgee.github.io/MarketMaestro>
+URL of the Heroku deployed application:
+<https://note-taking-app-32778.herokuapp.com/>
 
 URL of the GitHub repository:
-<https://github.com/SnugglesMcGee/MarketMaestro.git>
+<https://github.com/SnugglesMcGee/note-taking-app.git>
 
-URL of the Heroku repository:
-<https://git.heroku.com/note-taking-app-32778.git>
+URL of the Github deployed application:
+<https://snugglesmcgee.github.io/note-taking-app/>
 
 ---
 
