@@ -60,11 +60,15 @@ npm install express npm i uuid
 
 ### Project Status (Completed Assignment)
 
-Links:
+Image:
 
-! [Note Page Screenshot](./public/assets/images/Note-Taking-App.png)
+<img width="1476" alt="Note-Taking-App" src="https://user-images.githubusercontent.com/93297081/152729259-3f1294e1-af75-4eba-a753-c4b8b5b89f7e.png">
 
-! [Video Walkthrough](./public/assets/images/Note-Taking-Recording.Mp4)
+Video:
+
+https://user-images.githubusercontent.com/93297081/152729160-68d7d39e-4115-4759-b4e1-4ee421e1e0b0.Mp4
+
+## Links
 
 URL of the Heroku deployed application:
 <https://note-taking-app-32778.herokuapp.com/>
