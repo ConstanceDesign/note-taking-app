@@ -1,29 +1,26 @@
-// route that the front-end can request data from
-const { notes } = require("./db/db.json");
-
-// require express
 const express = require("express");
-
 const fs = require("fs");
 const path = require("path");
+const notes = require("./db/db.json");
 const uuid = require("uuid");
 
 // instantiate the server
 const app = express();
 
-// routes
-const htmlRoutes = require("./routes/htmlRoutes");
-const apiRoutes = require("./routes/apiRoutes");
-
 // add the port
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
+
+// // routes
+// const htmlRoutes = require("./routes/htmlRoutes");
+// const apiRoutes = require("./routes/apiRoutes");
 
 // middleware
-app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static("public"));
-app.use("/", htmlRoutes);
-app.use("/api", apiRoutes);
+
+// app.use("/", htmlRoutes);
+// app.use("/api", apiRoutes);
 
 // saves notes into db.json
 app.get("/api/notes", (req, res) => {

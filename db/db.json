@@ -1,7 +1,1 @@
-[
-  {
-    "title": "Test Title",
-    "text": "Test text",
-    "id": "0"
-  }
-]
+[{"title":"My First Note","text":"This app works!","id":"22c63536-babd-4db8-8ff1-e6f8d05e789b"},{"title":"My Second Note","text":"Now to figure out Heroku!","id":"e97f5c4b-0026-49a7-b1b3-ffbafccb4cbb"}]
