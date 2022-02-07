@@ -9,9 +9,9 @@ router.get("/notes", (req, res) => {
 
 router.post("/notes", (req, res) => {
   const notes = fs.readFile(db, "utf8");
-  const updatedNotes = [...notes, req.body];
-  fs.writeFile(db, updatedNotes);
-  res.json(updatedNotes);
+  const newNote = [...notes, req.body];
+  fs.writeFile(db, newNote);
+  res.json(newNote);
 });
 
 module.exports = router;

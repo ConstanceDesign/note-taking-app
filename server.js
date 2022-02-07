@@ -4,10 +4,9 @@ const { notes } = require("./db/db.json");
 // require express
 const express = require("express");
 
-// const fs = require("fs");
-// const path = require("path");
-// const notes = require("./db/db.json");
-// const uuid = require("uuid");
+const fs = require("fs");
+const path = require("path");
+const uuid = require("uuid");
 
 // instantiate the server
 const app = express();
@@ -62,10 +61,6 @@ app.get("/notes", function (req, res) {
 });
 
 // listen for requests
-// app.listen(3001, () => {
-//   console.log(`API server now on port 3001!`);
-// });
-
 app
   .listen(PORT, () => console.log(`Listening on PORT: ${PORT}`))
   .on("error", function (err) {
