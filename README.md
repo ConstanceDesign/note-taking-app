@@ -44,7 +44,7 @@ npm install express npm i uuid
 
 4. Created server.js and Set up GET routes to serve selective JSON data based on parameters.
 
-5. Updated your server to serve client-side code.
+5. Updated server to serve client-side code.
 
 6. Used the Fetch API to make requests to the server.
 
