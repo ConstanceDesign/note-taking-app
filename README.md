@@ -76,9 +76,6 @@ URL of the Heroku deployed application:
 URL of the GitHub repository:
 <https://github.com/ConstanceDesign/note-taking-app.git>
 
-URL of the Github deployed application:
-<https://snugglesmcgee.github.io/note-taking-app/>
-
 ---
 
 Author: Constance Mitchell
